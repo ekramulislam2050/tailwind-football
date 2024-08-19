@@ -13,6 +13,9 @@ module.exports = {
       },
       background:{
         'icon-bg':['rgb(150, 155, 171)'],
+      },
+      screens:{
+        "mobile":{"max":"576px"}
       }
     },
   },
