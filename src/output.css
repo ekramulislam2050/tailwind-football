@@ -587,11 +587,6 @@ video {
   margin-bottom: 0px;
 }
 
-.mx-0{
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
 .mb-4{
   margin-bottom: 1rem;
 }
@@ -622,22 +617,6 @@ video {
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.ml-4{
-  margin-left: 1rem;
-}
-
-.mb-0{
-  margin-bottom: 0px;
-}
-
-.mt-10{
-  margin-top: 2.5rem;
-}
-
-.mt-16{
-  margin-top: 4rem;
 }
 
 .box-border{
@@ -681,10 +660,6 @@ video {
   width: 100%;
 }
 
-.w-3\/5{
-  width: 60%;
-}
-
 .auto-cols-auto{
   grid-auto-columns: auto;
 }
@@ -701,10 +676,6 @@ video {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.grid-cols-1{
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
 .justify-end{
   justify-content: flex-end;
 }
@@ -715,10 +686,6 @@ video {
 
 .justify-between{
   justify-content: space-between;
-}
-
-.justify-around{
-  justify-content: space-around;
 }
 
 .rounded-lg{
@@ -741,10 +708,6 @@ video {
 
 .p-4{
   padding: 1rem;
-}
-
-.p-3{
-  padding: 0.75rem;
 }
 
 .px-4{
@@ -786,6 +749,10 @@ video {
   padding-left: 8rem;
 }
 
+.pl-36{
+  padding-left: 9rem;
+}
+
 .pr-36{
   padding-right: 9rem;
 }
@@ -796,22 +763,6 @@ video {
 
 .pt-4{
   padding-top: 1rem;
-}
-
-.pl-36{
-  padding-left: 9rem;
-}
-
-.pr-5{
-  padding-right: 1.25rem;
-}
-
-.pt-10{
-  padding-top: 2.5rem;
-}
-
-.pr-6{
-  padding-right: 1.5rem;
 }
 
 .text-center{
@@ -839,11 +790,6 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-semibold{
@@ -874,130 +820,66 @@ video {
     visibility: visible;
   }
 
-  .mobile\:invisible{
-    visibility: hidden;
-  }
-
   .mobile\:mx-0{
     margin-left: 0px;
     margin-right: 0px;
   }
 
-  .mobile\:mx-2{
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-  }
-
-  .mobile\:my-4{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .mobile\:my-8{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .mobile\:my-10{
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .mobile\:mx-1{
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
+  .mobile\:mx-4{
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .mobile\:mt-10{
     margin-top: 2.5rem;
   }
 
-  .mobile\:mt-12{
-    margin-top: 3rem;
-  }
-
   .mobile\:mt-16{
     margin-top: 4rem;
-  }
-
-  .mobile\:mt-1{
-    margin-top: 0.25rem;
-  }
-
-  .mobile\:mt-8{
-    margin-top: 2rem;
-  }
-
-  .mobile\:mb-4{
-    margin-bottom: 1rem;
-  }
-
-  .mobile\:-mb-4{
-    margin-bottom: -1rem;
-  }
-
-  .mobile\:mb-2{
-    margin-bottom: 0.5rem;
-  }
-
-  .mobile\:mb-0{
-    margin-bottom: 0px;
-  }
-
-  .mobile\:-mb-0{
-    margin-bottom: -0px;
-  }
-
-  .mobile\:-mb-10{
-    margin-bottom: -2.5rem;
-  }
-
-  .mobile\:mb-1{
-    margin-bottom: 0.25rem;
-  }
-
-  .mobile\:-mb-8{
-    margin-bottom: -2rem;
-  }
-
-  .mobile\:-mb-6{
-    margin-bottom: -1.5rem;
-  }
-
-  .mobile\:-mb-12{
-    margin-bottom: -3rem;
-  }
-
-  .mobile\:-mb-1{
-    margin-bottom: -0.25rem;
-  }
-
-  .mobile\:-mb-2{
-    margin-bottom: -0.5rem;
-  }
-
-  .mobile\:mt-20{
-    margin-top: 5rem;
-  }
-
-  .mobile\:mt-2{
-    margin-top: 0.5rem;
-  }
-
-  .mobile\:mt-4{
-    margin-top: 1rem;
   }
 
   .mobile\:mt-6{
     margin-top: 1.5rem;
   }
 
-  .mobile\:block{
-    display: block;
+  .mobile\:ml-0{
+    margin-left: 0px;
   }
 
-  .mobile\:flex{
-    display: flex;
+  .mobile\:ml-1{
+    margin-left: 0.25rem;
+  }
+
+  .mobile\:ml-0\.5{
+    margin-left: 0.125rem;
+  }
+
+  .mobile\:-ml-1{
+    margin-left: -0.25rem;
+  }
+
+  .mobile\:-ml-2{
+    margin-left: -0.5rem;
+  }
+
+  .mobile\:-ml-3{
+    margin-left: -0.75rem;
+  }
+
+  .mobile\:-ml-4{
+    margin-left: -1rem;
+  }
+
+  .mobile\:-mr-4{
+    margin-right: -1rem;
+  }
+
+  .mobile\:ml-4{
+    margin-left: 1rem;
+  }
+
+  .mobile\:mr-2{
+    margin-right: 0.5rem;
   }
 
   .mobile\:grid{
@@ -1012,106 +894,28 @@ video {
     height: auto;
   }
 
-  .mobile\:h-full{
-    height: 100%;
-  }
-
-  .mobile\:w-full{
-    width: 100%;
-  }
-
   .mobile\:w-11\/12{
     width: 91.666667%;
-  }
-
-  .mobile\:w-\[\]{
-    width: ;
-  }
-
-  .mobile\:w-\[90\%\]{
-    width: 90%;
-  }
-
-  .mobile\:w-\[90\]{
-    width: 90;
   }
 
   .mobile\:w-3\/5{
     width: 60%;
   }
 
-  .mobile\:flex-none{
-    flex: none;
-  }
-
-  .mobile\:auto-cols-auto{
-    grid-auto-columns: auto;
+  .mobile\:w-full{
+    width: 100%;
   }
 
   .mobile\:grid-cols-1{
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
-  .mobile\:flex-wrap{
-    flex-wrap: wrap;
-  }
-
-  .mobile\:justify-start{
-    justify-content: flex-start;
-  }
-
-  .mobile\:justify-end{
-    justify-content: flex-end;
-  }
-
   .mobile\:justify-center{
     justify-content: center;
   }
 
-  .mobile\:justify-between{
-    justify-content: space-between;
-  }
-
-  .mobile\:justify-around{
-    justify-content: space-around;
-  }
-
-  .mobile\:justify-evenly{
-    justify-content: space-evenly;
-  }
-
-  .mobile\:gap-5{
-    gap: 1.25rem;
-  }
-
-  .mobile\:gap-3{
-    gap: 0.75rem;
-  }
-
-  .mobile\:gap-2{
-    gap: 0.5rem;
-  }
-
   .mobile\:overflow-hidden{
     overflow: hidden;
-  }
-
-  .mobile\:p-4{
-    padding: 1rem;
-  }
-
-  .mobile\:p-2{
-    padding: 0.5rem;
-  }
-
-  .mobile\:py-2{
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-
-  .mobile\:px-4{
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
   .mobile\:px-0{
@@ -1119,14 +923,9 @@ video {
     padding-right: 0px;
   }
 
-  .mobile\:px-9{
-    padding-left: 2.25rem;
-    padding-right: 2.25rem;
-  }
-
-  .mobile\:px-2{
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+  .mobile\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .mobile\:px-3{
@@ -1134,14 +933,9 @@ video {
     padding-right: 0.75rem;
   }
 
-  .mobile\:py-3{
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-  }
-
-  .mobile\:py-4{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+  .mobile\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   .mobile\:py-6{
@@ -1149,47 +943,12 @@ video {
     padding-bottom: 1.5rem;
   }
 
-  .mobile\:px-5{
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-
-  .mobile\:px-10{
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .mobile\:py-5{
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-  }
-
-  .mobile\:pl-5{
-    padding-left: 1.25rem;
-  }
-
-  .mobile\:pr-5{
-    padding-right: 1.25rem;
+  .mobile\:pl-1{
+    padding-left: 0.25rem;
   }
 
   .mobile\:pl-0{
     padding-left: 0px;
-  }
-
-  .mobile\:pr-0{
-    padding-right: 0px;
-  }
-
-  .mobile\:pt-10{
-    padding-top: 2.5rem;
-  }
-
-  .mobile\:text-center{
-    text-align: center;
-  }
-
-  .mobile\:text-justify{
-    text-align: justify;
   }
 
   .mobile\:text-start{
@@ -1201,94 +960,38 @@ video {
     line-height: 1;
   }
 
-  .mobile\:leading-3{
-    line-height: .75rem;
-  }
-
-  .mobile\:leading-5{
+  .mobile\:text-sm{
+    font-size: 0.875rem;
     line-height: 1.25rem;
   }
 
-  .mobile\:leading-10{
+  .mobile\:text-4xl{
+    font-size: 2.25rem;
     line-height: 2.5rem;
   }
 
-  .mobile\:leading-snug{
-    line-height: 1.375;
+  .mobile\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
-  .mobile\:leading-loose{
-    line-height: 2;
-  }
-
-  .mobile\:leading-relaxed{
-    line-height: 1.625;
-  }
-
-  .mobile\:leading-normal{
-    line-height: 1.5;
-  }
-
-  .mobile\:leading-\[\]{
-    line-height: ;
-  }
-
-  .mobile\:leading-\[1\]{
-    line-height: 1;
-  }
-
-  .mobile\:leading-\[2\]{
-    line-height: 2;
-  }
-
-  .mobile\:leading-\[3\]{
-    line-height: 3;
-  }
-
-  .mobile\:leading-\[4\]{
-    line-height: 4;
-  }
-
-  .mobile\:leading-\[5\]{
-    line-height: 5;
-  }
-
-  .mobile\:leading-\[6\]{
-    line-height: 6;
-  }
-
-  .mobile\:leading-\[1\.4\]{
-    line-height: 1.4;
-  }
-
-  .mobile\:leading-\[1\.5\]{
-    line-height: 1.5;
+  .mobile\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .mobile\:leading-\[1\.2\]{
     line-height: 1.2;
   }
 
-  .mobile\:shadow-xl{
-    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  .mobile\:text-white{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 
   .mobile\:shadow-md{
     --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  }
-
-  .mobile\:shadow-sm{
-    --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-    --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  }
-
-  .mobile\:outline-none{
-    outline: 2px solid transparent;
-    outline-offset: 2px;
   }
 }
